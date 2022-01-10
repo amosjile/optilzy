@@ -1,0 +1,91 @@
+/*============== MAIN STYLES =============*/
+
+.formInput {
+  background-image: url("/src/assets/images/bg.png"),
+    url("/src/assets/images/bg-2.png");
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-color: #fff;
+  padding: 3em;
+}
+
+.aptilzy {
+  background-color: #e6eeff;
+  padding: 1.2em;
+}
+
+/*============== TYPOGRAPHY =============*/
+
+label {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--secColorBlack);
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+small {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(pryColorBlack);
+}
+/*============== GENERAL STYLES =============*/
+
+input.checkbox {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+button {
+  background-color: var(--secColorBlue);
+  color: var(--pryColor);
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 0.5em;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: var(--altColor);
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.Illustration {
+  width: 100%;
+  height: auto;
+  margin-top: 6em;
+}
+
+/* ========== Responsiveness====== */
+
+@media screen and (max-width: 500px) {
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 17px;
+  }
+
+  label {
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+}

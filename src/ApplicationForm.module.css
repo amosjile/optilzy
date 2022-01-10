@@ -1,3 +1,47 @@
+:root {
+  /*============== GLOBAL COLORS =============*/
+  --pryColorBlack: #333333;
+  --pryColor: #fff;
+  --secColorBlue: #0046a3;
+  --secColorTorqBlue: #e6eeff;
+  --secColorBlack: #656565;
+  --altColor: #1771dd;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+}
+
 .exampleClass {
-    background-color: yellow;
+  background-color: yellow;
+}
+
+/*============== TYPOGRAPHY =============*/
+
+h2 {
+  font-weight: 700;
+  color: var(--secColorBlue);
+}
+
+h3 {
+  font-weight: 600;
+  color: var(--pryColorBlack);
+}
+
+p {
+  font-weight: 600;
+  color: var(--secColorBlack);
 }
