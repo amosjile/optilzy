@@ -2,7 +2,7 @@
   "name": "design-challenge",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://optilyzGmbH.github.io/design-challenge",
+  "homepage": "*",
   "dependencies": {
     "@types/jest": "^26.0.24",
     "@types/node": "^12.20.27",
