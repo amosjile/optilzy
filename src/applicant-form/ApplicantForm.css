@@ -12,7 +12,7 @@
 
 .aptilzy {
   background-color: #e6eeff;
-  padding: 3em;
+  padding: 1.2em;
 }
 
 /*============== TYPOGRAPHY =============*/
@@ -57,6 +57,17 @@ button {
 
 button:hover {
   background-color: var(--altColor);
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.Illustration {
+  width: 100%;
+  height: auto;
+  margin-top: 6em;
 }
 
 /* ========== Responsiveness====== */
